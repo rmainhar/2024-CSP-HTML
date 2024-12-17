@@ -1,3 +1,54 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cat Gallery</h1>
+        <div class="gallery">
+            <img src="https://placekitten.com/200/300" alt="Cute cat">
+            <img src="https://placekitten.com/250/300" alt="Adorable cat">
+            <img src="https://placekitten.com/300/300" alt="Fluffy cat">
+            <img src="https://placekitten.com/300/250" alt="Charming cat">
+            <img src="https://placekitten.com/200/200" alt="Sleepy cat">
+            <img src="https://placekitten.com/400/300" alt="Playful cat">
+            <img src="https://placekitten.com/300/400" alt="Curious cat">
+            <img src="https://placekitten.com/350/350" alt="Lazy cat">
+        </div>
+    </div>
+</body>
 </html>
