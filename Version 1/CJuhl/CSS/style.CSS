@@ -1,0 +1,49 @@
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.button1 {
+	border-radius: 8px;
+}
+
+.button2 {
+	border-radius: 30%;
+}
+
+.red {
+	background-color: #ff0000;
+}
+
+td{
+	padding:20px;
+}
+
+.newbutton1{
+    font-size: 20px;
+}
+
+.newbutton2{
+    color:chocolate;
+}
+
+.newbutton3{
+    text-decoration: double;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+	text-align:center;
+}
