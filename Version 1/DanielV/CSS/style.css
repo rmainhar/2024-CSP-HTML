@@ -1,0 +1,61 @@
+
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.button1 {
+	border-radius: 8px;
+}
+
+.button2 {
+	border-radius: 30%;
+}
+
+.red {
+	background-color: #ff0000;
+}
+
+.pink_largeButton {
+    background-color: hotpink;
+    border-radius: 50%;
+    cursor: crosshair;
+    font-size: 20px;
+}
+
+.small_aquaButton {
+    border-radius: 20%;
+    background-color: aqua;
+    cursor: zoom-in;
+}
+
+.greenbutton {
+    border-radius: 30%;
+    cursor: context-menu;
+    background-color: springgreen;
+}
+
+
+
+
+
+td{
+	padding:20px;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+	text-align:center;
+}
