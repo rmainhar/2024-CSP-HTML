@@ -79,3 +79,28 @@ table{
 h1, h2, h3, h4, h5, h6{
 	text-align:center;
 }
+
+.title{
+    color: red;
+    font-family: 'Trebuchet MS', sans-serif; 
+  }
+  
+  .title-large {
+    font-size: 2rem;
+  }
+  
+  .title-small {
+    font-size: .5rem;
+  }
+
+  #morecontent {
+    background-color: yellow;
+  }
+  *{
+    text-align: right;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
