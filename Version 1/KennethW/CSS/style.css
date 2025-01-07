@@ -15,6 +15,19 @@
 	border-radius: 8px;
 }
 
+.title{
+    color: red;
+    font-family: 'Trebuchet MS', sans-serif; 
+  }
+  
+  .title-large {
+    font-size: 2rem;
+  }
+  
+  .title-small {
+    font-size: .5rem;
+  }
+
 .button2 {
 	border-radius: 30%;
 }
@@ -60,3 +73,12 @@ table{
 h1, h2, h3, h4, h5, h6{
 	text-align:center;
 }
+
+#morecontent {
+    background-color: yellow;
+  }
+  
+  *{
+   text-align: center;
+   border-radius: 20%;
+  }
