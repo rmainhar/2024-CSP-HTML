@@ -10,17 +10,21 @@
 	margin: 4px 2px;
 	cursor: pointer;
 }
-
 .button1 {
 	border-radius: 8px;
+	background-color:#25c519;
+	border:1px solid #241d13;
 }
 
 .button2 {
 	border-radius: 30%;
+	background-color:#25c519;
+	border:1px solid #241d13;
 }
 
 .red {
 	background-color: #ff0000;
+	border:1px solid #241d13;
 }
 
 .theBlue {
@@ -86,12 +90,28 @@
 .white:hover {
 	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
 	background-color:#ccc2a6;
-}
-.white:active {
-	position:relative;
-	top:1px;
-}
+	}
+	.white:active {
+		position:relative;
+		top:1px;
+	}
 
+.title{
+	color: red;
+	font-family: 'Trebuchet MS', sans-serif; 
+  }
+  
+  .title-large {
+	font-size: 2rem;
+  }
+  
+  .title-small {
+	font-size: .5rem;
+  }
+
+#extraExtra {
+	background-color: yellow;
+  }
 
 td{
 	padding:20px;
@@ -104,4 +124,11 @@ table{
 
 h1, h2, h3, h4, h5, h6{
 	text-align:center;
+}
+
+*{
+    border: 2px solid black;
+	box-shadow: -9px 12px 5px 0px #1c1b18;
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
 }
