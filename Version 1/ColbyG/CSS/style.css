@@ -1,0 +1,117 @@
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    border-radius: 8px;
+}
+
+.button2 {
+    border-radius: 30%;
+}
+.blueButton {
+	box-shadow:inset 0px 1px 3px 0px #9fb4f2;
+	background:linear-gradient(to bottom, #154dad 5%, #476e9e 100%);
+	background-color:#154dad;
+	border-radius:5px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #1f54db;
+}
+.greenButton {
+	box-shadow: 0px 10px 14px -7px #3dc21b;
+	background:linear-gradient(to bottom, #44c767 5%, #59ff00 100%);
+	background-color:#44c767;
+	border-radius:4px;
+	border:1px solid #015c0a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.redButton {
+	box-shadow:inset 0px 1px 0px 0px #ff8f69;
+	background:linear-gradient(to bottom, #f05227 5%, #520e00 100%);
+	background-color:#f05227;
+	border-radius:3px;
+	border:1px solid #cc3e25;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ff4d00;
+}
+.redButton:hover {
+	background:linear-gradient(to bottom, #520e00 5%, #f05227 100%);
+	background-color:#520e00;
+}
+.redButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #59ff00 5%, #44c767 100%);
+	background-color:#59ff00;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #154dad 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.red {
+    background-color: #ff0000;
+}
+
+td {
+    padding: 20px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
