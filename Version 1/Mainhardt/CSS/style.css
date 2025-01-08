@@ -74,3 +74,31 @@ table{
 h1, h2, h3, h4, h5, h6{
 	text-align:center;
 }
+
+.title{
+    color: red;
+    font-family: 'Trebuchet MS', sans-serif; 
+  }
+  
+.title-large {
+    font-size: 2rem;
+  }
+  
+.title-small {
+    font-size: .5rem;
+  }
+
+#morecontent {
+    background-color: yellow;
+  }
+
+
+@media (max-width: 600px) {
+    * {
+        font-size: 10px;
+    }
+}
+
+p{
+    
+}
