@@ -96,11 +96,4 @@ h1, h2, h3, h4, h5, h6{
   #morecontent {
     background-color: yellow;
   }
-  *{
-    text-align: right;
-    border: 2px solid black;
-    padding: 10px;
-    margin: 5px;
-    background-color: lightgray;
-    font-family: Arial, sans-serif;
-}
+ 
