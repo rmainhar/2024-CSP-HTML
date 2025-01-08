@@ -128,7 +128,6 @@ h1, h2, h3, h4, h5, h6{
 
 *{
     border: 2px solid black;
-	box-shadow: -9px 12px 5px 0px #1c1b18;
-	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
-	background-color:#ccc2a6;
+	background:linear-gradient(to bottom, #ccc2a6 5%, #cdb470 100%);
+	background-color:#eae0c2;
 }
