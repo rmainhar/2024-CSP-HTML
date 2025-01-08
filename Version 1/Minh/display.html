@@ -33,9 +33,10 @@
 
     <!-- Custom styles for this template -->
     <style type="text/css">
+
         footer {
             font-size: 12px;
-            text-align: center;
+            text-align: middle;
         }
         
         .card {
@@ -43,6 +44,11 @@
             transition: 0.3s;
             width: 32%;
             margin-bottom: .6em;
+            display: inline-block;
+        }
+
+        .card_img{
+            width: 100%;
         }
         
         .card:hover {
@@ -51,10 +57,17 @@
         
         .nameplate {
             padding: 2px 16px;
+            font-size: 2vw;
+            height: 100%;
+            max-height:100%;
+            max-width:100%;
+            margin:auto;
+            display:block;            
         }
         
-        .paragraph {
-            font-family: Arial, Helvetica, sans-serif;
+        .paragraph p {
+          font-family: Arial, Helvetica, sans-serif;
+          display: inline;
         }
         
         .orange {
@@ -112,7 +125,6 @@
         </div>
 
         <h2>People</h2>
-
         <div class="card">
             <img src="https://github.com/rmainhar/SHS_WebDevelopment/blob/master/Version4.0/user00/images/img_avatar.png?raw=true" alt="Avatar John" style="width:100%;">
             <div class="nameplate">
@@ -121,13 +133,13 @@
             </div>
         </div>
         <div class="card">
-            <img src="https://github.com/rmainhar/SHS_WebDevelopment/blob/master/Version4.0/user00/images/img_avatar2.png?raw=true" alt="Avatar Jane">
+            <img src="https://github.com/rmainhar/SHS_WebDevelopment/blob/master/Version4.0/user00/images/img_avatar2.png?raw=true" alt="Avatar Jane" style="width:100%;">
             <div class="nameplate">
                 <h4><b>Jane Doe</b></h4>
                 <p>Computer Scientist</p>
             </div>
         </div>
-        <div class="card" style="display: none;">
+        <div class="card">
             <img src="https://github.com/rmainhar/SHS_WebDevelopment/blob/master/Version4.0/user00/images/img_avatar3.png?raw=true" alt="Avatar Linux" style="width:100%;">
             <div class="nameplate">
                 <h4><b>Sir Linux Penguin</b></h4>

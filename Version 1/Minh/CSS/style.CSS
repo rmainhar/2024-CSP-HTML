@@ -101,12 +101,3 @@ h1, h2, h3, h4, h5, h6{
 #morecontent {
     background-color: yellow;
   }
-p{
-    font-size: 3em;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    background: linear-gradient(90deg, #f39c12, #e74c3c);
-    background-clip: text;
-    color: transparent;
-    animation: glow 1.5s ease-in-out infinite alternate;
-  }
