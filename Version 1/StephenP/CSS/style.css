@@ -1,5 +1,5 @@
 .title{
-    color: rgb(231, 243, 192);
+    color: rgb(243, 192, 192);
     font-family: 'Trebuchet MS', sans-serif; 
   }
   
@@ -134,8 +134,8 @@ h1, h2, h3, h4, h5, h6{
 
 *{
     text-align:right;
-    border: 2px solid black;
-    box-shadow: -9px 12x 5px 0px #1c1b18;
-    background:linear-gradient(to bottom, #383738 5%, #eac0c2);
-    background-color:#757166
+    
+ 
+    
+    background-color:#6f6e6d
 }
