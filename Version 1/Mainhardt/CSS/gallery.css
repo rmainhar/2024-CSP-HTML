@@ -12,7 +12,7 @@
 
 .flipper {
     position: relative;    
-    transition: 20s;
+    transition: 1.1s;
     transform-style: preserve-3d;
 }
 
@@ -47,7 +47,7 @@ img {
 
 .caption, .back h1 {
     font-family: "Orbitron", sans-serif;
-    font-size: 1.7em;
+    font-size: 2vh;
     padding: 10px 10px 0 10px;
     margin: 0;
     text-align: center;
