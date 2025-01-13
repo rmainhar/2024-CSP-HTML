@@ -127,7 +127,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 *{
-    border: 2px solid black;
-	background:linear-gradient(to bottom, #ccc2a6 5%, #cdb470 100%);
-	background-color:#eae0c2;
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
 }
