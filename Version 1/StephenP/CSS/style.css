@@ -1,3 +1,5 @@
+@import url(rainbow.css);
+
 .title{
     color: rgb(243, 192, 192);
     font-family: 'Trebuchet MS', sans-serif; 
@@ -132,10 +134,3 @@ h1, h2, h3, h4, h5, h6{
 	text-align:center;
 }
 
-*{
-    text-align:right;
-    
- 
-    
-    background-color:#6f6e6d
-}
