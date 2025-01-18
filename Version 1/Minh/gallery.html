@@ -7,13 +7,13 @@
 
 <head>
 
-    <title>My Work as a Web Developer</title>
+    <title>Gallery</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="SHS WebDev Version 4.0 - Portfolio">
+    <meta name="description" content="SHS WebDev Version 4.0 - Gallery">
 
     <!-- CSS -->
     <!-- Bootstrap -->
@@ -33,7 +33,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
 
 
-
     <!-- Custom styles for this template -->
     <style type="text/css">
         footer {
@@ -43,12 +42,6 @@
         
         #rainbow {
             width: 100%;
-        }
-        #knowledge > * {
-            border: 3px red solid;
-        }
-        p + * {
-            background-color: #FFFF00;
         }
     </style>
 </head>
@@ -66,13 +59,13 @@
                 <ul class="navbar-nav me-auto">
                     <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your NavBar ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link active">Home</a>
+                        <a href="#" class="nav-link active">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="display.html" class="nav-link">Display</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Portfolio</a>
+                        <a href="portfolio.html" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a href="gallery.html" class="nav-link">Gallery</a>
@@ -92,53 +85,73 @@
 
     <main class="container-fluid mt-3">
 
-        <h1 class="text-left my-3 title" tabindex="0">Check out my work!</h1>
+        <h1 class="text-left my-3 title" tabindex="0">Check out my favorite images</h1>
         <!-- Edit this line for the title of your page -->
 
         <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Put your content below this line ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
-        <h3 id="topHeading">I'm a Web Developer</h3>
-        <div id="knowledge">
-            <li>CSS
-                <ul>
-                    <li>Classes</li>
-                    <li>Selectors</li>
-                    <li>ID's</li>
-                </ul>
-            </li>
-            <li>HTML
-                <ul>
-                    <li>Tables</li>
-                    <li>DIV's</li>
-                    <li>Nav Bar</li>
-                </ul>
-            </li>
+
+        <div id="gallery">
+            <p>Hover over the images to get the answer</p>
+            <div class="container">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="https://www.axiomtek.com/Download/Ptype3/en-US/ATX_Motherboard.jpg" alt="ATX_Motherboard">
+                        <p class="caption">Computer Part</p>
+                    </div>
+                    <div class="back">
+                        <a href="https://en.wikipedia.org/wiki/Motherboard" target="_blank">
+                            <h2 class="mh-100">Motherboard</h2>
+                        </a>
+                        <p class="description">A motherboard (also called mainboard, main circuit board, or mobo) is the main printed circuit board (PCB) in general-purpose computers and other expandable systems.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="https://sc04.alicdn.com/kf/H2d9c1b6b8d5748efb5cc2fca2c0ae8e2U.jpg" alt="RAM Stick">
+                        <p class="caption">Computer Part</p>
+                    </div>
+                    <div class="back">
+                        <a href="https://en.wikipedia.org/wiki/Random-access_memory" target="_blank">
+                            <h2>RAM</h2>
+                        </a>
+                        <p class="description">Random-access memory is a form of computer memory that can be read and changed in any order, typically used to store working data and machine code</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="https://www.notebookcheck.net/fileadmin/Notebooks/NVIDIA/Turing/nvidia_TU117_chip.jpg" alt="NVIDIA GPU">
+                        <p class="caption">Computer Part</p>
+                    </div>
+                    <div class="back">
+                        <a href="https://en.wikipedia.org/wiki/Graphics_processing_unit" target="_blank">
+                            <h2 class="">GPU</h2>
+                        </a>
+                        <p class="description">A graphics processing unit (GPU) is a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display device.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <p>
-            These are the things I know in the <strong>WEB DEVELOPMENT</strong> <u>world</u>.
-        </p>
-        <p>
-            I will use my knowledge to create an amazing website for you and your needs.
-        </p>
-        <div>
-            <table id="rainbow">
-                <tr>
-                    <td class="background-red">
-                    </td>
-                    <td class="background-orange">
-                    </td>
-                    <td class="background-yellow">
-                    </td>
-                    <td class="background-green">
-                    </td>
-                    <td class="background-blue">
-                    </td>
-                    <td class="background-indigo">
-                    </td>
-                    <td class="background-violet">
-                    </td>
-                </tr>
-            </table>
+        <div class="container">
+            <div class="flipper">
+                <div class="front">
+                    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ACute_dog.jpg" alt="HABIBI_IMG">
+                    <p class="caption">HABIBI</p>
+                </div>
+                <div class="back">
+                    <a href="https://en.wikipedia.org/wiki/HABIBI" target="_blank">
+                        <h2 class="mh-100">HABIBI</h2>
+                    </a>
+                    <p class="description">Habibi is an Arabic term of endearment that translates to “my love,” “my dear,” or “my darling.” It can be used as a pet name to express affection to anyone you love, such as friends, partners, and family members.</p>
+                </div>
+            </div>
         </div>
+
         <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Make sure all your content is above this line ↑↑↑↑↑↑↑↑↑-->
     </main>
 
