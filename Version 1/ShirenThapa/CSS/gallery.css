@@ -1,0 +1,41 @@
+#gallery {
+    font-family: "Orbitron", sans-serif;
+    line-height: 1.5em;
+    text-align: center;
+}
+  .container {
+    display: inline-block;
+    margin: 1%;
+    perspective: 1000px;
+}
+  .flipper {
+    position: relative;    
+    transition: 0.9s;
+    transform-style: preserve-3d;
+}
+  .front, .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 320px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    backface-visibility: hidden;
+}
+.front{
+    z-index:2;
+}
+
+.back{
+    transform:rotateY(180deg);
+}
+img {
+    width: 100%;
+  }
+  .container, .front, .back {
+    width: 250px;
+    height: 320px;
+}
+.container:hover .flipper {
+    transform: rotateY(180deg);
+  }
