@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Cart</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<script src="addToCart.js"></script>
+	<script src="SPOILER_BEWARNED_secretCode.js"></script>
+	<!-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> -->
+</head>
+<body>
+	<header>
+		<img src="icon.webp" id="icon">
+		<div class="seperator"></div>
+		<nav>
+			<ul class="navList">
+				<li><a href="home.html" class="navBarLink">Home</a></li>
+				<li><a href="store.html" class="navBarLink">Store</a></li>
+				<li><a href="about.html" class="navBarLink">About</a></li>
+				<li><a href="cart.html" class="navBarLink">Cart</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<template id="cartItemTemplate">
+		<div class="cartItem">
+			<div class="cartItemDetailsContainer">
+				<img src="icon.webp">
+				<div class="cartItemNameDescriptionContainer">
+					<h4 class="cartItemName">Shopping Cart!</h4>
+					<p class="cartItemDescription">A premium shopping cart, This is the best shopping cart to ever exist, Made from 100% material of i don't know, it is guaranteed that customers will come back just for these shopping carts</p>
+				</div>
+			</div>
+			<div class="cartItemPriceContainer">
+				<p class="itemPriceCrossed">$199.99</p>
+				<p class="itemPriceOnSale">$99.99</p>
+				<button class="itemButton" id="remove">Remove</button>
+			</div>
+		</div>
+	</template>
+
+	<main>
+		<h2>
+			Your Cart
+		</h2>
+		<div id="cartContentContainer">
+			<div id="cartContainer">
+				<div class="seperatorHorizontal"></div>
+				<div id="cartItemsContainer">
+					<!-- <div class="cartItem">
+						<div class="cartItemDetailsContainer">
+							<img src="icon.webp">
+							<div class="cartItemNameDescriptionContainer">
+								<h4 class="cartItemName">Shopping Cart!</h4>
+								<p class="cartItemDescription">A premium shopping cart, This is the best shopping cart to ever exist, Made from 100% material of i don't know, it is guaranteed that customers will come back just for these shopping carts</p>
+							</div>
+						</div>
+						<div class="cartItemPriceContainer">
+							<p class="itemPriceCrossed">$199.99</p>
+							<p class="itemPriceOnSale">$99.99</p>
+						</div>
+					</div> -->
+				</div>
+			</div>
+			<div id="buttonsContainer">
+				<div id="cartInformationContainer">
+					<p class="itemsInCart" id="itemsInCart">0 Items in Cart</p>
+					<p class="totalCrossed" id="totalCrossed">Total: $0.00</p>
+					<p class="total" id="total">Total: $0.00</p>
+				</div>
+				<button class="itemButton buttonAnimation" id="buyButton" onclick="buyItems()">Buy 0 Items</button>
+				<button class="itemButton buttonAnimation" id="clearCartButton" onclick="clearCart()">Clear Cart</button>
+				<button style="display: none;" class="itemButton buttonAnimation" id="superSecretFreeButton" onclick="superSecretMakeItFree()">MAKE IT FREE</button>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<ul class="footerList">
+			<li><a href="404.html" class="footerLink">Contact Us</a></li>
+			<li><a href="404.html" class="footerLink">Refund Policy</a></li>
+			<li><a href="404.html" class="footerLink">Terms</a></li>
+		</ul>
+
+		<p class="footerText">© 2024 Nonsense Shop</p>
+	</footer>
+</body>
+</html>

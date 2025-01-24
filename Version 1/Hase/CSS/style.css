@@ -1,0 +1,132 @@
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.button1 {
+	border-radius: 8px;
+	background-color:#25c519;
+	border:1px solid #241d13;
+}
+
+.button2 {
+	border-radius: 30%;
+	background-color:#25c519;
+	border:1px solid #241d13;
+}
+
+.red {
+	background-color: #ff0000;
+	border:1px solid #241d13;
+}
+
+.theBlue {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border:12px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.theBlue:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.theBlue:active {
+	position:relative;
+	top:1px;
+}
+
+.youtube {
+	box-shadow:inset 0px 25px 46px -15px #b54b3a;
+	background-color:#a73f2d;
+	border:1px solid #241d13;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Impact;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 23px;
+	text-decoration:none;
+	text-shadow:-3px 3px 2px #7a2a1d;
+}
+.youtube:hover {
+	background-color:#b34332;
+}
+.youtube:active {
+	position:relative;
+	top:1px;
+}
+
+.white {
+	box-shadow: -9px 12px 5px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Courier New;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px 20px;
+	text-decoration:none;
+	text-shadow:2px 2px 3px #ffffff;
+}
+.white:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+	}
+	.white:active {
+		position:relative;
+		top:1px;
+	}
+
+.title{
+	color: red;
+	font-family: 'Trebuchet MS', sans-serif; 
+  }
+  
+  .title-large {
+	font-size: 2rem;
+  }
+  
+  .title-small {
+	font-size: .5rem;
+  }
+
+#extraExtra {
+	background-color: yellow;
+  }
+
+td{
+	padding:20px;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+	text-align:center;
+}
+
+*{
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
